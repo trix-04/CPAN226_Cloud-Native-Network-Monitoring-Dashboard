@@ -5,7 +5,7 @@
 ## 📌 Project Overview
 This project is a **Network Monitoring Dashboard** that displays key network performance metrics such as **latency, bandwidth and system status** in a clean and user-friendly interface.
 
-The purpose of this project is to apply networking concepts learned in class to real-world scenarios, while also focusing on **UI / UX design** to make technical data easy to understand.
+The purpose of this project is to apply networking concepts learned in class to real-world scenarios, while also focusing on **UI/UX design** to make technical data easy to understand.
 
 ---
 
@@ -31,17 +31,20 @@ The purpose of this project is to apply networking concepts learned in class to 
 ---
 
 ## 🖥️ How to Run
+
+```bash
 npm install
 npm run dev
+```
 Open in browser: 
-[http://localhost:3000]
+http://localhost:3000
 
 ---
 
 ## 🌐 Networking Concepts Used
 This project uses a **client-server model**, where the client (dashboard) sends requests to a server and receives responses.
 
-The communication follows the *TCP / IP* model , which ensures reliable data transfer across the network:
+The communication follows the *TCP/IP* model , which ensures reliable data transfer across the network:
 
 - Transport Layer (TCP) ensures reliable and ordered delivery of data
 - Network Layer (IP) is responsible for routing data between devices using IP addresses
@@ -53,7 +56,7 @@ These concepts allow the dashboard to simulate how real-world network monitoring
 
 ## 🛠️ Technologies Used
 - JavaScript / React (front-end)
-- Basic Networking Concepts (TCP / IP Model)
+- Basic Networking Concepts (TCP/IP Model)
 - Simulated or API-based data
   
 ---
@@ -61,18 +64,22 @@ These concepts allow the dashboard to simulate how real-world network monitoring
 ## 👾 UI/UX Design
 
 The dashboard is designed to be simple and user friendly:
-🟩 : green indicates normal network performance
-🟥 : red indicates network issues
-- A clean layout helps users quickly identify important information
+
+🟩 : green indicates normal network performance   
+
+🟥 : red indicates network issues   
+
+📊 A clean layout helps users quickly identify important information
 
 This improves usability and allows users to understand network data without technical knowledge.
+
 ---
 
 ## 🧠 What I Learned
 - How *client-server communication* works
 - The role of *TCP and IP in networking*
 - How data moves through *network layers*
-- Importance of *UI / UX in displaying technical data*
+- Importance of *UI/UX in displaying technical data*
 
 ---
 
