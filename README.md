@@ -32,7 +32,7 @@ The purpose of this project is to apply networking concepts learned in class to 
 
 ---
 
-## 🖥️ How to Run
+## How to Run
 
 ```bash
 npm install
@@ -57,7 +57,7 @@ The dashboard uses a simulated server endpoint to return telemetry data in JSON 
 
 ---
 
-## 🛠️ Technologies Used
+## 🖥️ Technologies Used
 - JavaScript / React
 - Next.js
 - CSS
@@ -76,11 +76,11 @@ The dashboard is designed to be simple and user friendly:
 
 🟥 : Red indicates critical/network issues   
 
-📊 A clean layout helps users quickly identify important information without needing advanced technical knowledge.
+A clean layout helps users quickly identify important information without needing advanced technical knowledge.
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 - How client-server communication works
 - How API routes can act as a server endpoint
 - How to fetch and display telemetry data on the frontend
@@ -91,7 +91,7 @@ The dashboard is designed to be simple and user friendly:
 
 ---
 
-## 👤 Author
+## Author
 
 Trish F.
 
