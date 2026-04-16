@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Network Monitoring Dashboard
 
-## Getting Started
+---
 
-First, run the development server:
+## 📌 Project Overview
+This project is a **Network Monitoring Dashboard** that displays key network performance metrics such as **latency, bandwidth and system status** in a clean and user-friendly interface.
+
+The purpose of this project is to apply networking concepts learned in class to real-world scenarios, while also focusing on **UI/UX design** to make technical data easy to understand.
+
+---
+
+## ⚙️ How It Works
+1. User opens the dashboard
+2. Client sends a request to the server
+3. Data travels through network layers
+4. Server processes request and sends response
+5. Dashboard displays the data visually
+
+---
+
+## 💡 Features
+- Displays key metrics:
+  - Latency
+  - Bandwidth
+  - Network status
+
+- Clean layout
+- Real-time (or simulated) updates
+- Visual indicators for quick understanding
+
+---
+
+## 🖥️ How to Run
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+Open in browser: 
+http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🌐 Networking Concepts Used
+This project uses a **client-server model**, where the client (dashboard) sends requests to a server and receives responses.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The communication follows the *TCP/IP* model , which ensures reliable data transfer across the network:
 
-## Learn More
+- Transport Layer (TCP) ensures reliable and ordered delivery of data
+- Network Layer (IP) is responsible for routing data between devices using IP addresses
+- Link Layer (data transmission) handles the transmission of data between devices on the same network
 
-To learn more about Next.js, take a look at the following resources:
+These concepts allow the dashboard to simulate how real-world network monitoring systems retrieve and display data.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Technologies Used
+- JavaScript / React (front-end)
+- Basic Networking Concepts (TCP/IP Model)
+- Simulated or API-based data
+  
+---
 
-## Deploy on Vercel
+## 👾 UI/UX Design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The dashboard is designed to be simple and user friendly:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🟩 : green indicates normal network performance   
+
+🟥 : red indicates network issues   
+
+📊 A clean layout helps users quickly identify important information
+
+This improves usability and allows users to understand network data without technical knowledge.
+
+---
+
+## 🧠 What I Learned
+- How *client-server communication* works
+- The role of *TCP and IP in networking*
+- How data moves through *network layers*
+- Importance of *UI/UX in displaying technical data*
+
+---
+
+## 👤 Author
+
+Trish F.
+
+---
+
+## Conclusion
+
+This project combines *network fundamentals* width *front-end design* to create a simple but effective monitoring tool. It demonstrates how theoretical concepts from class can be applied in a practical and user-focused way.
+
